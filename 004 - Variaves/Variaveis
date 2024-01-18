@@ -1,0 +1,49 @@
+---Variáveis---
+
+Variáveis em JavaScript são "recipientes" que armazenam valores. Elas são usadas para guardar e manipular dados durante a execução de um programa.
+
+Em JavaScript, as variáveis são declaradas usando a palavra-chave var, let ou const, seguida pelo nome desejado para a variável. Por exemplo:
+
+
+
+var nome;
+let idade;
+const PI = 3.1415;
+
+
+Na declaração acima, criamos três variáveis: nome, idade e PI.
+
+A palavra-chave var era usada anteriormente para declarar variáveis, mas foi substituída por let e const nas versões mais recentes do JavaScript. No entanto, ainda é possível encontrá-la em código legado.
+
+A palavra-chave let é usada para declarar uma variável que pode ser modificada posteriormente.
+
+A palavra-chave const é usada para declarar uma variável com um valor constante, ou seja, seu valor não pode ser alterado depois de atribuído.
+
+Após declarar uma variável, podemos atribuir um valor a ela:
+
+
+
+nome = "João";
+idade = 25;
+
+
+Também é possível realizar a declaração e atribuição em uma única linha:
+
+
+
+let sobrenome = "Silva";
+const altura = 180;
+
+
+As variáveis podem armazenar diferentes tipos de dados, como números, strings, booleanos, objetos e assim por diante. O valor armazenado em uma variável pode ser atualizado e acessado em diferentes partes do código.
+
+É importante mencionar que JavaScript é uma linguagem de tipagem dinâmica, o que significa que não precisamos especificar o tipo de dado ao declarar uma variável. O tipo é inferido automaticamente a partir do valor atribuído.
+
+
+
+let x = 5; // x é do tipo Number
+let nome = "Maria"; // nome é do tipo String
+let ativo = true; // ativo é do tipo Boolean
+
+
+As variáveis são uma parte fundamental da programação em JavaScript e permitem armazenar e manipular dados de forma flexível durante a execução de um programa.

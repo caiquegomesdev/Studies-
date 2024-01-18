@@ -1,0 +1,27 @@
+Objetos
+Em JavaScript, objetos são estruturas de dados que permitem armazenar propriedades e métodos relacionados. Eles são usados para representar entidades ou conceitos do mundo real de forma estruturada e organizada.
+
+Os objetos em JavaScript são compostos por pares de chave-valor, onde cada chave é uma string (também chamada de propriedade) e cada valor pode ser de qualquer tipo de dado válido em JavaScript, como números, strings, booleanos, arrays, outros objetos e até mesmo funções.
+
+Existem várias maneiras de criar objetos em JavaScript, mas a forma mais comum é usando a sintaxe de objeto literal:
+
+
+
+const objeto = {
+   propriedade1: valor1,
+   propriedade2: valor2,
+   // ...
+   metodo1: function() {
+      // Bloco de código do método
+   },
+   // ...
+};
+
+
+No exemplo acima, criamos um objeto chamado objeto com duas propriedades (propriedade1 e propriedade2) e um método (metodo1). As propriedades são atribuídas a um valor específico e podem ser acessadas usando a sintaxe de ponto (objeto.propriedade1) ou a sintaxe de colchetes (objeto["propriedade1"]).
+
+Métodos são funções que estão associadas a um objeto e podem ser chamados usando a sintaxe de ponto (objeto.metodo1()). Eles permitem que você defina comportamentos específicos para um objeto.
+
+Além da sintaxe de objeto literal, também é possível criar objetos usando a função construtora new Object() ou por meio de classes introduzidas no ECMAScript 2015 (ES6). Essas abordagens oferecem mais flexibilidade e recursos avançados para trabalhar com objetos.
+
+Os objetos em JavaScript são fundamentais para a programação orientada a objetos e são amplamente usados para modelar dados e comportamentos complexos. Eles permitem organizar e estruturar o código de forma eficiente, facilitando a manipulação e o acesso aos dados relacionados.
