@@ -1,0 +1,43 @@
+DOM
+O DOM (Document Object Model) em JavaScript é uma representação estruturada e hierárquica de um documento HTML ou XML. Ele define a estrutura do documento como uma árvore de objetos, onde cada elemento, atributo, texto e comentário do documento é representado por um nó no DOM.
+
+Em outras palavras, o DOM permite que você acesse, manipule e atualize os elementos de uma página web usando JavaScript. Ele fornece uma interface de programação que permite interagir com os elementos HTML, aplicar estilos, modificar conteúdos e responder a eventos.
+
+O DOM é formado por diferentes tipos de nós, incluindo:
+
+Nós de elemento: Representam os elementos HTML e XML, como <div>, <p>, <ul>, etc. Eles podem ter nós filhos, atributos e conteúdo de texto.
+
+Nós de atributo: Representam os atributos de um elemento HTML ou XML, como id, class, src, etc.
+
+Nós de texto: Representam o conteúdo de texto dentro de um elemento HTML ou XML.
+
+Nós de comentário: Representam comentários dentro do código HTML ou XML.
+
+Por meio do DOM, você pode usar métodos e propriedades para navegar pela estrutura do documento, selecionar elementos, modificar seu conteúdo, estilo e atributos, criar novos elementos, adicionar ou remover elementos da página e manipular eventos.
+
+Por exemplo, você pode selecionar um elemento pelo seu id usando o método getElementById:
+
+
+
+const elemento = document.getElementById("meu-elemento");
+
+
+
+Em seguida, você pode modificar o conteúdo desse elemento usando a propriedade innerHTML:
+
+
+
+elemento.innerHTML = "Novo conteúdo";
+
+
+
+Você também pode adicionar um evento a um elemento para responder a ações do usuário:
+
+
+
+elemento.addEventListener("click", function() {
+   // Código a ser executado quando o elemento for clicado
+});
+
+
+O DOM é uma parte essencial do desenvolvimento web em JavaScript, permitindo que você interaja com o conteúdo e a estrutura de uma página web de forma dinâmica e responsiva. Ele facilita a manipulação e atualização de elementos da página, tornando possível criar experiências interativas e dinâmicas para os usuários.
