@@ -1,0 +1,26 @@
+Timers
+Em JavaScript, timers são recursos que permitem agendar a execução de determinado código em momentos específicos. Eles são úteis para controlar o tempo de execução de eventos e realizar tarefas repetitivas ou aguardar um determinado período antes de executar um bloco de código.
+
+Existem três tipos principais de timers em JavaScript:
+
+
+
+setTimeout: O setTimeout é usado para executar uma função após um certo período de tempo. Você especifica a função que deseja executar e o tempo de atraso em milissegundos. Por exemplo:
+
+setTimeout(function() {
+  console.log("Este código será executado após 2 segundos.");
+}, 2000);
+
+Nesse exemplo, o código dentro da função será executado após 2 segundos (2000 milissegundos).
+
+
+
+setInterval: O setInterval é usado para executar uma função repetidamente em intervalos regulares de tempo. Você especifica a função que deseja executar e o intervalo em milissegundos. Por exemplo:
+
+
+
+setInterval(function() {
+  console.log("Este código será executado a cada 1 segundo.");
+}, 1000);
+
+Os timers em JavaScript são poderosos para criar atrasos, agendar tarefas e controlar a execução de código com base no tempo. Eles são amplamente usados em jogos, animações, atualizações de interface do usuário, requisições assíncronas e outros casos em que é necessário lidar com o tempo de forma controlada.
