@@ -1,0 +1,17 @@
+Debug ou Depuração: o que é, e para que serve?
+
+Depurar uma aplicação JavaScript é um processo essencial durante o desenvolvimento de software. O processo de depuração envolve identificar e corrigir erros, falhas e comportamentos indesejados em um código JavaScript. Aqui estão algumas razões pelas quais você deve depurar sua aplicação JavaScript:
+
+Identificar erros: Mesmo os desenvolvedores mais experientes cometem erros. Depurar sua aplicação permite que você identifique e corrija esses erros, garantindo que seu código funcione corretamente.
+
+Compreender o fluxo de execução: A depuração permite que você acompanhe a execução do código passo a passo, o que pode ajudá-lo a compreender o fluxo de execução da sua aplicação. Isso é especialmente útil quando você está tentando entender por que algo não está funcionando conforme o esperado.
+
+Verificar o valor das variáveis: Durante a depuração, você pode inspecionar o valor das variáveis em diferentes pontos do código. Isso é útil para entender o estado interno da sua aplicação e descobrir por que certas variáveis podem estar assumindo valores incorretos.
+
+Testar hipóteses: Quando você encontra um problema em sua aplicação, muitas vezes precisa formular hipóteses sobre a causa do problema. Depurar permite que você teste essas hipóteses, examinando o comportamento do código e verificando se suas suposições estão corretas.
+
+Otimizar o desempenho: A depuração também pode ser usada para identificar gargalos de desempenho em sua aplicação. Você pode monitorar o tempo de execução de diferentes partes do código e identificar áreas que podem ser otimizadas para melhorar o desempenho geral da aplicação.
+
+Interagir com o código em tempo real: Durante a depuração, você pode interagir com o código em tempo real, modificando valores de variáveis, testando diferentes cenários e executando o código passo a passo. Isso pode ser extremamente útil para entender como seu código se comporta em diferentes situações.
+
+Existem várias ferramentas de depuração disponíveis para JavaScript, como os recursos de depuração integrados dos navegadores (como o Chrome DevTools) e bibliotecas de terceiros (como o Node.js debugger). Essas ferramentas oferecem recursos poderosos para depurar sua aplicação JavaScript e ajudá-lo a identificar e corrigir problemas com eficiência. Portanto, é altamente recomendável investir tempo na depuração da sua aplicação JavaScript para garantir um código de alta qualidade e um melhor desempenho.
